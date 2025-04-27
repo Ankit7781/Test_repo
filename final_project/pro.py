@@ -3,7 +3,7 @@ import joblib
 import pandas as pd
 
 # Load model
-model = joblib.load("dt_model.pkl")
+model = joblib.load("model/dt_model.pkl")
 
 # Full State List
 states = [
